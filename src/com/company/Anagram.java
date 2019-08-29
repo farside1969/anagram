@@ -49,14 +49,14 @@ public class Anagram {
 // loop through indexed s1 input
         for (int i = 0; i < s1.length(); i++) {
 
-// add characters to list1 via charAt as s1 is iterated via index location
+// add characters to list1 via charAt using the current index location
             list1.add(s1.charAt(i));
         }
 
 // loop through indexed s2 input
         for (int i = 0; i < s2.length(); i++) {
 
-// add characters to list2 via charAt as s2 is iterated via index location
+// add characters to list2 via charAt using the current index location
             list2.add(s2.charAt(i));
         }
 
